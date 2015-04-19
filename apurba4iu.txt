@@ -1,0 +1,25 @@
+This is the first file to be added to the GIT repository. 
+Following are the definitions of the commands as mentioned in the exercise.
+
+git clone: This command is used to clone the github repository onto the local server (india futuresystems in this case). The command syntax is "git clone <clone 
+URL>" The clone URL can be accessed from the repository to be copied in the github.
+
+git add: This command is used to move the untracked files to staging area of the git which can be tracked after the changes are added to the git repository. The 
+command sysntax is "git add <filename>" where filename is the name of the file that needs to be tracked and addedd to github
+
+git commit: This command is used to commit the tracking changes made on the repository. This means that all the files that were addedd to the staging area will 
+be tracked by github as a single change as a result of this command. The command sysntax is "git commit -m <Comment to identify the changes made>"
+
+git push: This command is used to update or share the local changes or additions to the repository with the remote github repository. In a simpler word, this 
+command pushes the changes to the github repository.  The command sysntax is "git push origin master"
+
+git pull: This command is used to pull or refresh the local server or repository with all the latest files in the remote github repository server. This helps in 
+keeping the local server in sync of any modification that happened in the remote server. The command sysntax is "git pull origin master"
+
+The difference between remote and local repository can be explained as follows:
+
+Remote Repository: The main github repositoy that is the original source. This is hosted remotely on the github server and can have all the data and files from 
+different local repositories.
+
+Local Repository: This is the user's own terminal or the india system where he clones the remote repository to work on changes and update the remote repository. 
+It is primarily a copy of the remote repository that helps him to work on files locally.
